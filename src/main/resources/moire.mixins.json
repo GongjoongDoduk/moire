@@ -1,6 +1,7 @@
 {
   "package": "org.gjdd.moire.mixin",
   "mixins": [
-    "ElementHolderMixin"
+    "ElementHolderMixin",
+    "ServerEntityManagerMixin"
   ]
 }

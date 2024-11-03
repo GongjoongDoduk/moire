@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "moire",
+  "version": "${version}",
+  "name": "Moire",
+  "description": "Kotlin DSL for polymer-virtual-entity",
+  "authors": [
+    "GongjoongDoduk"
+  ],
+  "license": "Apache-2.0",
+  "icon": "assets/moire/icon.png",
+  "environment": "*",
+  "mixins": [
+    "moire.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=${minecraftVersion}",
+    "fabricloader": ">=${fabricLoaderVersion}",
+    "polymer-virtual-entity": ">=${polymerVersion}"
+  }
+}

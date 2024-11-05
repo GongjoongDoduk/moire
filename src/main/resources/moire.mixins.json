@@ -1,7 +1,12 @@
 {
+  "required": true,
   "package": "org.gjdd.moire.mixin",
+  "compatibilityLevel": "JAVA_21",
   "mixins": [
     "ElementHolderMixin",
     "ServerEntityManagerMixin"
-  ]
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
 }
